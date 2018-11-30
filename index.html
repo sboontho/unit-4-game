@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Homework 4</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div id="example2">
+      <h1>Crystals Collector!</h1>
+    </div>
+    <br>
+    <div id="ranNumber">
+
+      <button id="btn9" type="button" onclick="comNumber();">Click here to start the game<br>
+        <br>
+        You will be given random number to start the game.
+        <br>
+        <br>
+        There are four cristals below. By clicking on a cristal you will add a specific amount of points to your total
+        score.
+        <br>
+        <br>
+        You win the game by matching your total score to random number, you lose the game if your total score goes
+        above the random number.
+        <br>
+        <br>
+        The value of each cristal is hidden from you until you click on it.
+        <br>
+        <br>
+        Each time when the game starts, the game will change the values of each cristal.
+
+      </button>
+      </div>
+      <br>
+      <br>
+      <div>
+          <p id="demo"></p>
+        <button id="btn5" type="button" onclick="comNumber();">Click for Computer Number</button>
+        
+        <button id="btn6" type="button">Win 0 <br>Losses 0</button>
+
+      </div>
+      <br>
+      <div>
+        <button id="btn1" type="button" onclick="cristal1Function();"><img src="assets/images/cristal1.png" height="40"/> </button>  
+        <button id="btn2" type="button" onclick="cristal2Function();"><img src="assets/images/cristal2.PNG" height="40"/></button>
+        <button id="btn3" type="button" onclick="cristal3Function();"><img src="assets/images/cristal3.PNG" height="40"/></button>
+        <button id="btn4" type="button" onclick="cristal3Function();"><img src="assets/images/cristal4.png" height="40"/> </button>
+
+      </div>
+      <br>
+      <div>
+        <button id="btn7" type="button">Your Total Score is:</button>
+      </div>
+      <div>
+        <button id="btn8" type="button">0</button>
+      </div>
+
+    </div>
+
+
+    <br>
+
+
+
+</body>
+
+</html>
